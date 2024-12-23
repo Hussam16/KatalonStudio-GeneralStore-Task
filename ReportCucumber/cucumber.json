@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add two products to the cart and verify the total amount",
+        "description": "",
+        "id": "add-products-to-cart-in-general-store-app;add-two-products-to-the-cart-and-verify-the-total-amount",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27210566300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the General Store app",
+            "match": {
+              "location": "addProductStep.openTheApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27218350000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select \u0027Egypt\u0027 from the country dropdown",
+            "match": {
+              "location": "addProductStep.selectCountry()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4460297200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \u0027Hussam\u0027 in the name field",
+            "match": {
+              "location": "addProductStep.enterName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11414500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \u0027Male\u0027 as the gender",
+            "match": {
+              "location": "addProductStep.enterGender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 392695100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the \u0027Let\u0027s Shop\u0027 button",
+            "match": {
+              "location": "addProductStep.continueShopping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3660496900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add two products to the cart",
+            "match": {
+              "location": "addProductStep.addProductsCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 820060500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to the cart screen",
+            "match": {
+              "location": "addProductStep.openTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4154327300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that the products are displayed",
+            "match": {
+              "location": "addProductStep.verifyProductsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3042644100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify that the total amount equals 100.00",
+            "match": {
+              "location": "addProductStep.verifyTotalPrice()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add Products to Cart in General Store App",
+    "description": "",
+    "id": "add-products-to-cart-in-general-store-app",
+    "keyword": "Feature",
+    "uri": "Include/features/AddProducts.feature",
+    "tags": []
+  }
+]

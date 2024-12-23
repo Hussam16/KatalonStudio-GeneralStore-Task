@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="71.003001">
+    <testcase classname="Add Products to Cart in General Store App" name="Add two products to the cart and verify the total amount" time="71.003001">
+        <system-out><![CDATA[Given I open the General Store app..........................................passed
+When I select 'Egypt' from the country dropdown.............................passed
+And I enter 'Hussam' in the name field......................................passed
+And I select 'Male' as the gender...........................................passed
+And I click on the 'Let's Shop' button......................................passed
+And I add two products to the cart..........................................passed
+Then I navigate to the cart screen..........................................passed
+And I verify that the products are displayed................................passed
+And I verify that the total amount equals 100.00............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
